@@ -3,7 +3,7 @@ version: '2'
 services:
     jupyter:
         container_name: jupyter_notebook
-        image: jupyter/scipy-notebook
+        image: tuzkimo/jupyter_notebook
         ports:
             - 8765:8888
         volumes:
